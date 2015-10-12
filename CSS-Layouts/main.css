@@ -1,0 +1,389 @@
+body {
+  margin-left: 7px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%
+}
+
+/*TOP PAGE*/
+
+.company {
+  margin-left: 21px;
+  width: 135px;
+  display: inline-block;
+  color: #575D63;
+  /*border: 2px solid black;*/
+}
+
+a {
+  display: inline-block;
+  width: 80px;
+  /*border: 2px solid black;*/
+}
+
+.home:link {
+  margin-right: 0px;
+  text-decoration: none;
+  color: #575D63;
+  width: 71px;
+}
+
+.pricing {
+  margin-right: 0px;
+  text-decoration: none;
+  color: black;
+}
+
+.contact {
+  margin-right: 0px;
+  text-decoration: none;
+  color: #575D63;
+}
+
+/*Background and text for TOP PAGE*/
+
+.simple {
+  position: absolute;
+  font-size: 46px;
+  top: 171px;
+  right: 465px;
+}
+
+.trybefore {
+  position: absolute;
+  font-size: 46px;
+  top: 231px;
+  right: 411px;
+}
+
+.treeback {
+  /*border: 1px solid black;*/
+  margin-top: 7px;
+  margin-bottom: 25px;
+  background-image: url(images/background.jpg);
+  width: 1280px;
+  height: 414px;
+  color: white;
+  position: relative;
+  text-shadow: 1px 1px 2px black;
+  display: inline-block;
+}
+
+/*PURCHASING OPTIONS AND INPUTS*/
+
+
+.poptions {
+  /*border: 2px solid black;*/
+  height: 650px;
+  width: 1350px;
+  display:inline-block;
+  position: relative;
+}
+
+.green {
+  background-color: #618C52;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 12px;
+  right: 858px;
+
+}
+
+.blue {
+  background-color: #2D4D83;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 12px;
+  right: 540px;
+
+}
+
+.black {
+  background-color: #101010;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 12px;
+  right: 220px;
+}
+
+ul {
+  width: 298px;
+}
+
+.firstlist {
+  position: absolute;
+  bottom: 170px;
+  left: 152px;
+
+}
+
+.secondlist {
+  position: absolute;
+  bottom: 170px;
+  left: 470px;
+
+}
+
+.thirdlist {
+  position: absolute;
+  bottom: 170px;
+  left: 790px;
+
+}
+
+li {
+  width: 298px;
+  height: 30px;
+  border: 1px solid #E7E7E7;
+  background-color: #F7F7F7;
+  text-align: center;
+  padding-top: 10px;
+  color: #546065;
+  display: inline-block;
+}
+
+input {
+  margin-top: 25px;
+  border-radius: 40px;
+  background-color: white;
+  width: 100px;
+  height: 40px;
+  border:1px solid #DDDDDD;
+  font-weight: bold;
+}
+
+.button1 {
+  width: 298px;
+  text-align: center;
+  height: 90px;
+  position: absolute;
+  top: 463px;
+  left: 192px;
+  border:1px solid #DDDDDD;
+}
+
+.button2 {
+  width: 298px;
+  text-align: center;
+  height: 90px;
+  position: absolute;
+  top: 463px;
+  left: 510px;
+  border:1px solid #DDDDDD;
+}
+
+.button3 {
+  width: 298px;
+  text-align: center;
+  height: 90px;
+  position: absolute;
+  top: 463px;
+  left: 830px;
+  border:1px solid #DDDDDD;
+}
+
+.pers {
+  width: 100px;
+  /*border: 1px solid red;*/
+  font-size: 22px;
+  text-align: center;
+  position: absolute;
+  top: 45px;
+  left: 280px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.smallb {
+  width: 200px;
+ /* border: 1px solid red;*/
+  font-size: 22px;
+  text-align: center;
+  position: absolute;
+  top: 45px;
+  left: 561px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.enterp {
+  width: 100px;
+  /*border: 1px solid red;*/
+  font-size: 22px;
+  text-align: center;
+  position: absolute;
+  top: 45px;
+  left: 910px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.highdolla {
+  width: 100px;
+ /* border: 1px solid red;*/
+  font-size: 90px;
+  text-align: center;
+  position: absolute;
+  top: 60px;
+  left: 893px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.lildolla {
+  width: 100px;
+  /*border: 1px solid red;*/
+  font-size: 90px;
+  text-align: center;
+  position: absolute;
+  top: 60px;
+  left: 283px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.middolla {
+  width: 100px;
+  /*border: 1px solid red;*/
+  font-size: 90px;
+  text-align: center;
+  position: absolute;
+  top: 60px;
+  left: 575px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.permonthb {
+  width: 200px;
+  /*border: 1px solid red;*/
+  font-size: 19px;
+  text-align: center;
+  position: absolute;
+  top: 167px;
+  left: 558px;
+  color: #96A4C1;
+  font-family: 'Lato', sans-serif;
+}
+
+.permontha {
+  width: 200px;
+  /*border: 1px solid red;*/
+  font-size: 19px;
+  text-align: center;
+  position: absolute;
+  top: 167px;
+  left: 238px;
+  color: #AEC4A7;
+  font-family: 'Lato', sans-serif;
+}
+
+.permonthc {
+  width: 200px;
+  /*border: 1px solid red;*/
+  font-size: 19px;
+  text-align: center;
+  position: absolute;
+  top: 167px;
+  left: 881px;
+  color: #878787;
+  font-family: 'Lato', sans-serif;
+}
+
+/*H ELEMENTS AND PARAGRAPHS*/
+
+h3 {
+  font-weight: bold;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+p {
+  width: 430px;
+  display: inline-block;
+  color: #546065;
+}
+
+.paragraphs {
+  height: 500px;
+  position: relative;
+}
+
+.paraone {
+  position: absolute;
+  top: 30px;
+  left: 200px;
+  /*border: 1px solid black;*/
+
+}
+
+.paratwo {
+  position: absolute;
+  top: 30px;
+  left: 680px;
+  /*border: 1px solid green;*/
+  
+}
+
+.parathree {
+  position: absolute;
+  top: 220px;
+  left: 200px;
+  /*border: 1px solid blue; */ 
+}
+
+.parafour {
+  position: absolute;
+  top: 220px;
+  left: 680px;
+  /*border: 1px solid red; */ 
+}
+
+.hone {
+  position: absolute;
+  top: -10px;
+  left: 200px;
+  /*border: 1px solid black;*/
+}
+
+.htwo {
+  position: absolute;
+  top: -10px;
+  left: 680px;
+  /*border: 1px solid green;*/  
+}
+
+.hthree {
+  position: absolute;
+  top: 170px;
+  left: 200px;
+  /*border: 1px solid blue;*/  
+}
+
+.hfour {
+  position: absolute;
+  top: 170px;
+  left: 680px;
+  /*border: 1px solid red;*/ 
+}
+
+/*FOOTER*/
+
+.foot {
+  background-color: black;
+  color: gray;
+  text-align: center;
+  width: 1280px;
+  height: 40px;
+  padding-top: 35px;
+}
+
+.white {
+  color: white;
+}
